@@ -14,6 +14,7 @@ var bd = new PouchDB("comentario");
 
   //Guardar Comenatrio
   $btnGuardar.addEventListener("click", function() {
+    console.log("Hola");
     var nombreCompleto = $nombreCompleto.value,
       comentario = $comentario.value,
       telefono = $telefono.value;
